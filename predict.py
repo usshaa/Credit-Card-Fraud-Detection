@@ -18,7 +18,7 @@ def strToIntBool(s):
 
 def show_predict_page():
     st.title("Credit Card Fraud Detection")
-    st.write("""By Parth Maniar""")
+    st.subheader("""By Parth Maniar""")
     
     st.write("""### Enter inforamtion to predict if the transaction is Fraud""")
     
@@ -47,12 +47,13 @@ def show_predict_page():
 
     # Use the trained model to make predictions on the input data
     
-    if st.button("Predict"):
+    if st.button("Predict Now"):
     
         prediction = model.predict(input_df)
         print(prediction)
         # Show the predicted result
         if prediction[0]:
-            st.write('This transaction is Fraud')
-        else: st.write('This transaction is Safe')
+            st.error('The Transaction is Fraud', icon="🚨")
+        else: st.success('The Transaction is Safe', icon="✅")
+ 
     

@@ -20,7 +20,7 @@ def show_predict_page():
     st.title("Credit Card Fraud Detection")
     st.subheader("""By Parth Maniar""")
     
-    st.write("""### Enter inforamtion to predict if the transaction is Fraud""")
+    st.write("""### Enter Information to Predict if the Transaction is Fraud or Not!""")
     
     # Create input fields for the numerical columns
     distance_from_home = st.number_input('Distance from Home')

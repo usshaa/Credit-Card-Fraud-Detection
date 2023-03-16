@@ -1,5 +1,3 @@
-# Credit Card Fraud Detection 
-
 <div align="center">
   
 # [Credit Card Fraud Detection](https://credit-card-fraud-detection-parthmaniar.streamlit.app/) 🚨

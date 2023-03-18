@@ -2,7 +2,6 @@
   
 # [Credit Card Fraud Detection](https://credit-card-fraud-detection-parthmaniar.streamlit.app/) 🚨
 
-![Website](https://img.shields.io/website?up_message=online&style=flat-square&url=https://credit-card-fraud-detection-parthmaniar.streamlit.app/)
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=officialpm.creditcard-fraud)
 
 This web application is designed to predict whether a credit card transaction is fraudulent or not using a machine learning model. The model was trained on a dataset of credit card transactions and uses a random forest classifier to make predictions.
